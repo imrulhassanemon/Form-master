@@ -2,6 +2,8 @@ import './App.css'
 import SimpleComponent from './Component/simpleComponent/SimpleComponent'
 import StatefulForm from '../src/Component/staateFul/statefulForm'
 import ResuableForm from './Component/ResuableForm/ResuableForm'
+import Grandpa from './Component/Grandpa/Grandpa'
+import React from 'react'
 // import RefForm from './Component/RefForm/RefForm'
 
 function App() {
@@ -19,9 +21,6 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
-     {/* <SimpleComponent></SimpleComponent> */}
-     {/* <StatefulForm></StatefulForm> */}
-     {/* <RefForm></RefForm> */}
      <ResuableForm formTitle={'Form Title'} handleSubmit={handleSignupSubmit} >
       <h1>Sign Up</h1>
       <p>Please SignUp Right Now</p>
@@ -30,6 +29,7 @@ function App() {
       <h1>Update Profail</h1>
       <p>Please Update Your Profile</p>
      </ResuableForm>
+     <Grandpa></Grandpa>
     </>
   )
 }
