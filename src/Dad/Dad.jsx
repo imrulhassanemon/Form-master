@@ -1,6 +1,8 @@
 import React from 'react';
 import Myself from '../Myself/Myself';
 import Brother from '../brother/Brother';
+import Cousing from '../Cousing/Cousing';
+import Sister from '../sister/Sister';
 
 const Dad = () => {
     return (
@@ -10,6 +12,7 @@ const Dad = () => {
             <section className='flex'>
                 <Myself></Myself>
                 <Brother></Brother>
+                <Sister></Sister>
             </section>
         </div>
     );
