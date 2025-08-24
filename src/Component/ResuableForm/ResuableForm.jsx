@@ -14,7 +14,7 @@ const ResuableForm = ({submitBtnText = 'Submit',  handleSubmit, children}) => {
 
     return (
         <div >
-            <h5>{children}</h5>
+            {/* <p>{children}</p> */}
             <form onSubmit={handleLocalSubmit} >
                 <input type="text" name='name'  placeholder="Enter text" />
                 <br />
